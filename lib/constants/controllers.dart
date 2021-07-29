@@ -1,0 +1,28 @@
+
+
+import 'package:flutter_app_checkque_pool/appointments/appointmentsNew/newAppoint_controller.dart';
+import 'package:flutter_app_checkque_pool/appointments/appointmentsNew/newappdetails_con.dart';
+import 'package:flutter_app_checkque_pool/appointments/complete_appointments/complete_appointment_controller.dart';
+import 'package:flutter_app_checkque_pool/appointments/new_appointments/new_appointment_controller.dart';
+import 'package:flutter_app_checkque_pool/appointments/patient_details/patient_details_controller.dart';
+import 'package:flutter_app_checkque_pool/appointments/patient_details/patient_details_controller1.dart';
+import 'package:flutter_app_checkque_pool/appointments/pending_appointments/pending_appointmentController.dart';
+import 'package:flutter_app_checkque_pool/appointments/prescription/prescription_controller.dart';
+import 'package:flutter_app_checkque_pool/appointments/total_appointments/total_appointmnet_controller.dart';
+import 'package:flutter_app_checkque_pool/login/create_an_account/create_controller.dart';
+import 'package:flutter_app_checkque_pool/login/login_controller.dart';
+import 'package:flutter_app_checkque_pool/profile/profile_controller.dart';
+
+NewAppointmentController newAppointmentController = NewAppointmentController.instance;
+PatientDetailsController patientDetailsController = PatientDetailsController.instance;
+PatientDetailsController1 patientDetailsController1 = PatientDetailsController1.instance;
+PendingAppointments pendingAppointments = PendingAppointments.instance;
+PrescriptionController prescriptionController = PrescriptionController.instance;
+
+CreateController createController = CreateController.instance;
+CompleteAppointmentCon comController=CompleteAppointmentCon.instance;
+LoginController loginController = LoginController.instance;
+ProfileController profileController = ProfileController.instance;
+TotalAppointments totalController = TotalAppointments.instance;
+NewAppCon newAppCon = NewAppCon.instance;
+newAppDetailController newAppDetailCon = newAppDetailController.instance;
